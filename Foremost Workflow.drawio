@@ -114,24 +114,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="85QVw6fzVb0mpSmpkDnV" name="Engineering">
-    <mxGraphModel dx="2045" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2537" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="node1" value="Task/Request Received" style="rounded=1;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="150" y="30" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="node2" value="Engineering Manager filters task based on project" style="rounded=1;fillColor=#FFCC00;" vertex="1" parent="1">
-          <mxGeometry x="100" y="100" width="300" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="node3" value="Assign task to Engineering Lead" style="rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="node3" value="Assign task to Engineering Lead" style="rounded=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="150" y="180" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="node4" value="Task Type?" style="shape=rhombus;perimeter=rhombusPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="170" y="250" width="160" height="80" as="geometry" />
+        <mxCell id="node4" value="Engineering Lead &#xa;Filter Task Type?" style="shape=rhombus;perimeter=rhombusPerimeter;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="node6" value="Hydraulics Task: &#xa;Works with Hydraulic Engineer" style="rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="425" y="350" width="250" height="50" as="geometry" />
+          <mxGeometry x="425" y="370" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1MNc7-N7yqB63XDzpFrG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node8" target="node9">
           <mxGeometry relative="1" as="geometry">
@@ -143,17 +140,24 @@
         <mxCell id="node8" value="Too Difficult: &#xa;Works with Senior Design Engineer" style="rounded=1;fillColor=#A2C4C9;" vertex="1" parent="1">
           <mxGeometry x="-180" y="370" width="250" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="9KwKzdnsQLaEPr1uJze_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="node9" target="node5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="node9" value="Engineering Lead &#xa;releases drawing/solution to BOM Group" style="rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="100" y="525" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="node10" value="BOM Group forwards to Purchasing/Production" style="rounded=1;fillColor=#B6D7A8;" vertex="1" parent="1">
           <mxGeometry x="100" y="660" width="300" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="node1" target="node2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="node1" target="9KwKzdnsQLaEPr1uJze_-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="node2" target="node3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9KwKzdnsQLaEPr1uJze_-4" target="node3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="150" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="node3" target="node4">
           <mxGeometry relative="1" as="geometry" />
@@ -188,7 +192,7 @@
         <mxCell id="edge10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="node7" target="node9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="800" y="550" />
+              <mxPoint x="830" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -196,7 +200,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node7" value="Electrical Task: &#xa;Works with Electrical Engineer" style="rounded=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="710" y="350" width="250" height="50" as="geometry" />
+          <mxGeometry x="710" y="370" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1MNc7-N7yqB63XDzpFrG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="node5">
           <mxGeometry relative="1" as="geometry">
@@ -208,6 +212,9 @@
         </mxCell>
         <mxCell id="node5" value="Mechanical Task: &#xa;Works alone or with Designer/Junior Engineers" style="rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="125" y="370" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9KwKzdnsQLaEPr1uJze_-4" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Engineering Manager &lt;br&gt;filters task based on project&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
