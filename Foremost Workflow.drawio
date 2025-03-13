@@ -220,27 +220,35 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IbbpXL2FcBIL8GoWaBNN" name="Clickup">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TGeP6-d0HH7yMN9INx-B-13" value="Google Sheets&amp;nbsp;&lt;div&gt;as data linker&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FF66;opacity=30;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="490" height="260" as="geometry" />
+        </mxCell>
         <mxCell id="2" value="Microsoft Excel" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="50" y="80" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Google Sheets&#xa;Master Sheet" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="170" y="270" width="140" height="50" as="geometry" />
+          <mxGeometry x="140" y="260" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Google Sheets&#xa;Partial Info Sheet" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="370" y="270" width="160" height="50" as="geometry" />
+          <mxGeometry x="360" y="260" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5" value="ClickUp&#xa;Project List" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="560" y="90" width="120" height="50" as="geometry" />
+          <mxGeometry x="480" y="80" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TGeP6-d0HH7yMN9INx-B-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="TGeP6-d0HH7yMN9INx-B-16" value="Query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TGeP6-d0HH7yMN9INx-B-12">
+          <mxGeometry x="-0.1617" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6" value="Macro (Sync Script)" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="280" y="350" width="160" height="50" as="geometry" />
+          <mxGeometry x="290" y="405" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7" value="" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;entryX=0.276;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="TGeP6-d0HH7yMN9INx-B-13">
           <mxGeometry relative="1" as="geometry" />
@@ -250,20 +258,35 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8" value="" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="3" target="4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9" value="Two-Way Sync&#xa;Clickup to Sheets" style="edgeStyle=orthogonalEdgeStyle;startArrow=block;endArrow=block;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.755;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TGeP6-d0HH7yMN9INx-B-13" target="5">
+          <mxGeometry x="0.0107" relative="1" as="geometry">
+            <mxPoint x="380" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="440" y="195" />
+              <mxPoint x="540" y="195" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="9" value="Two-Way Sync&#xa;Clickup to Sheets" style="edgeStyle=orthogonalEdgeStyle;startArrow=block;endArrow=block;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="TGeP6-d0HH7yMN9INx-B-13" target="5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="10" value="Trigger" style="endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.81;entryY=0.141;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490.0000000000002" y="310" as="sourcePoint" />
+            <mxPoint x="410" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="" style="endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="4" target="6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="TGeP6-d0HH7yMN9INx-B-18" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=6;spacing=2;aspect=fixed;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="340" y="455" width="60" height="30" as="geometry">
+            <mxRectangle x="300" y="455" width="130" height="113.88" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="11" value="" style="endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="6" target="4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="TGeP6-d0HH7yMN9INx-B-19" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=6;aspect=fixed;" vertex="1" parent="TGeP6-d0HH7yMN9INx-B-18">
+          <mxGeometry y="30" width="130" height="27.96" as="geometry" />
         </mxCell>
-        <mxCell id="TGeP6-d0HH7yMN9INx-B-13" value="Google Sheets&amp;nbsp;&lt;div&gt;as data linker&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FF66;opacity=30;align=left;" vertex="1" parent="1">
-          <mxGeometry x="60" y="250" width="490" height="160" as="geometry" />
+        <mxCell id="TGeP6-d0HH7yMN9INx-B-20" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=6;aspect=fixed;" vertex="1" parent="TGeP6-d0HH7yMN9INx-B-18">
+          <mxGeometry y="57.96" width="130" height="27.96" as="geometry" />
+        </mxCell>
+        <mxCell id="TGeP6-d0HH7yMN9INx-B-21" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=6;aspect=fixed;" vertex="1" parent="TGeP6-d0HH7yMN9INx-B-18">
+          <mxGeometry y="85.92" width="130" height="27.96" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
