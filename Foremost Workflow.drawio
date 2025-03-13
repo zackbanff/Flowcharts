@@ -242,7 +242,7 @@
         <mxCell id="6" value="Macro (Sync Script)" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="280" y="350" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="7" value="" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;entryX=0.276;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="TGeP6-d0HH7yMN9INx-B-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGeP6-d0HH7yMN9INx-B-11" value="Coupler.io" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7">
@@ -253,7 +253,7 @@
         <mxCell id="8" value="" style="endArrow=block;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="3" target="4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Two-Way Sync&#xa;Clickup to Sheets" style="edgeStyle=orthogonalEdgeStyle;startArrow=block;endArrow=block;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="9" value="Two-Way Sync&#xa;Clickup to Sheets" style="edgeStyle=orthogonalEdgeStyle;startArrow=block;endArrow=block;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="TGeP6-d0HH7yMN9INx-B-13" target="5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="10" value="" style="endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="4" target="6">
@@ -261,6 +261,9 @@
         </mxCell>
         <mxCell id="11" value="" style="endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="6" target="4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGeP6-d0HH7yMN9INx-B-13" value="Google Sheets&amp;nbsp;&lt;div&gt;as data linker&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FF66;opacity=30;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="490" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
